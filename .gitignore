@@ -32,8 +32,6 @@ env.bak/
 venv.bak/
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -89,7 +87,7 @@ Thumbs.db
 *.sqlite3
 
 
-# If you want to track the entire data folder (override above),
+# If you want to track the entire data folder,
 # add explicit negations below. These negations override previous patterns.
 # Uncomment the lines below to allow committing `data/` and its files.
 # NOTE: tracking data may add large files to your repo.
