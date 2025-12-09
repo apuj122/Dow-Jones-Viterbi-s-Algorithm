@@ -88,18 +88,13 @@ Thumbs.db
 *.sql
 *.sqlite3
 
-# Project data and results (ignore large or generated files)
-# Keep raw data out of git; if you want some data tracked, remove specific entries
-data/*.csv
-data/*.png
-data/*.pkl
 
 # If you want to track the entire data folder (override above),
 # add explicit negations below. These negations override previous patterns.
 # Uncomment the lines below to allow committing `data/` and its files.
 # NOTE: tracking data may add large files to your repo.
-#!data/
-#!data/*
+!data/
+!data/*
 
 # Notebook checkpoints and outputs
 output/
